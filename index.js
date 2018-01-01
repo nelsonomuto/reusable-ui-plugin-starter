@@ -39,7 +39,6 @@ app.use(
     express.static('public/lib/icons/dist/fonts/stewie-icons.woff2')
 );
 
-
 app.listen(8910, function() {
     console.log('shared is running on localhost:8910');
 });

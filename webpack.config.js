@@ -13,7 +13,7 @@ const {
 } = require('./webpack.config.template.js')('./', webpack, _, path, CleanWebpackPlugin);
 
 config.entry = {
-    'main': ['babel-polyfill', path.resolve(__dirname, './app/main.js')]
+    main: ['babel-polyfill', path.resolve(__dirname, './app/main.js')]
 };
 const sassThreadLoader = require('thread-loader');
 
